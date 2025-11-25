@@ -3,9 +3,9 @@ import { AppData, ServerProtocol, SubscriptionType } from './types';
 
 export const INITIAL_DATA: AppData = {
   users: [
-    { id: 'user-1', name: 'John Doe', email: 'john@example.com', subscriptionId: 'sub-1', bandwidthUsage: 150, dataUsage: 50 },
-    { id: 'user-2', name: 'Jane Smith', email: 'jane@example.com', subscriptionId: 'sub-1', bandwidthUsage: 250, dataUsage: 80 },
-    { id: 'user-3', name: 'CV Creation User', email: 'cvcreation@example.com', subscriptionId: 'sub-2', bandwidthUsage: 500, dataUsage: 200 },
+    { id: 'user-1', name: 'John Doe', email: 'dxplusdev.com', subscriptionId: 'sub-1', bandwidthUsage: 150, dataUsage: 50 },
+    { id: 'user-2', name: 'Jane Smith', email: 'dxplusdev.com', subscriptionId: 'sub-1', bandwidthUsage: 250, dataUsage: 80 },
+    { id: 'user-3', name: 'CV Creation User', email: 'dxplusdev.com', subscriptionId: 'sub-2', bandwidthUsage: 500, dataUsage: 200 },
   ],
   servers: [
     { id: 'server-1', countryCode: 'US', countryName: 'United States', protocol: ServerProtocol.WIREGUARD, serverIp: '192.168.1.1', provideTo: 'Free', latitude: 38.9072, longitude: -77.0369 },
