@@ -195,7 +195,7 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ setIsAuthenticated }) =>
 
                 {renderContent()}
                 <footer className="mt-8 text-center text-sm text-dx-gray pt-4 border-t border-dx-light-3 dark:border-dx-dark-3">
-                    THIS APP IS CREATED BY CVCREATION
+                    THIS APP IS CREATED BY DX PLUS DEV
                 </footer>
             </main>
         </div>
